@@ -39,8 +39,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `username`, `password`, `hostel`) VALUES
-(1, 'admin', '123456', '1'),
-(2, 'piyush', '0', '2');
+(1, 'PD', '53', '1'),
+(2, 'ST', '253', '1'),(3, 'NK', '66', '2'),(4, 'TC', '30', '2'),(5, 'AA', '72', '2');
 
 -- --------------------------------------------------------
 
@@ -62,8 +62,8 @@ CREATE TABLE `cleanrequest` (
 --
 
 INSERT INTO `cleanrequest` (`request_id`, `rollnumber`, `worker_id`, `date`, `cleaningtime`, `req_status`) VALUES
-(1, 13, 1, '2022-05-07', 17, 1),
-(2, 13, 0, '2022-05-19', 17, 0);
+(1, 13, 1, '2024-04-07', 17, 1),
+(2, 13, 0, '2024-04-19', 17, 0);
 
 -- --------------------------------------------------------
 
